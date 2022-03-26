@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --color-grey: #eee;
+    --dark-grey: #222831;
+}
+
+/* css reset */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter-div{
+   width: 40rem;
+   border : 1px solid var(--white);
+   background-color: var(--blue);
+   padding: 4rem;
+   color: var(--white);
+   text-align: center;
+   border-radius: 5px;
+}
+
+.counter-div > * {
+    margin-bottom: 2rem;
+}
+
+.count{
+    font-size: 4rem;
+}
+
+.buttons button{
+    padding: 1.2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.buttons button.subtract{
+    background-color: red;
+}
+
+.buttons button.reset{
+    background-color: greenyellow;
+}
+
+.buttons button.add{
+    background-color: var(--white);
+}
+
+body{
+    background-color: #005490;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pal {
+    background-color: white;
+    padding: 4rem;
+    width: 40rem;
+    height: 30vh;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.wrap{
+    background-color: white;
+    padding: 4rem;
+    width: 50rem;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+.input-text{
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #9d0191;
+    width: 70%;
+}
+
+.btn{
+    padding: 1rem 2.2rem;
+    border: none;
+    outline: none;
+    background-color: #db6400;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+}
+
+p.result{
+margin: auto;
+text-align: center;
+font-size: 2rem;
+font-weight: 600;
+}
+
+.generate{
+    background-color: green;
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    margin: 5px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
